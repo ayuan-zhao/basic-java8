@@ -3,12 +3,17 @@ package edu.gqq.ayuan;
 public class NarcissisticNumber {
     public static void main(String[] args) {
 
+        // primary code
         for (int i = 1; i < 10000; i++) {
             // if this number is Narcissistic Number, print it out
             if (isNarcissisticNumber(i)) {
                 System.out.println(i);
             }
         }
+
+        //test code
+        // boolean res = isNarcissisticNumber(230);
+        // System.out.println(res);
     }
 
     public static boolean isNarcissisticNumber(int num) {
@@ -20,5 +25,12 @@ public class NarcissisticNumber {
             num /= 10;
         }
         return backupNum == sumOfCubes ? true : false;
+
+        // equals to following
+        // if (backupNum == sumOfCubes) {
+        //     return true;
+        // } else {
+        //     return false;
+        // }
     }
 }
