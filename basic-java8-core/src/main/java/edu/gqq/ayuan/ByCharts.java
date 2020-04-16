@@ -15,6 +15,7 @@ public class ByCharts {
                 System.out.print(i + "X" + j + "=" + (i * j) + "\t");
             }
             System.out.println();
+            // System.out.println();
         }
     }
 }
