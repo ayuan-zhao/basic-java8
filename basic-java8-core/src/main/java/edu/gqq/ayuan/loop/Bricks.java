@@ -1,4 +1,4 @@
-package edu.gqq.ayuan;
+package edu.gqq.ayuan.loop;
 
 public class Bricks {
     public static void main(String[] args) {
