@@ -1,4 +1,4 @@
-package edu.gqq.ayuan;
+package edu.gqq.ayuan.loop;
 
 public class TianganDizhi {
 
