@@ -10,4 +10,11 @@ public class NumberReverse {
         }
         System.out.println(res);
     }
+
+    public static boolean isGood(int num) {
+        if (num > 3) {
+            return true;
+        }
+        return false;
+    }
 }
