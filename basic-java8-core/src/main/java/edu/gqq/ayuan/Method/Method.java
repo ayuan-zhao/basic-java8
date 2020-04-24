@@ -1,4 +1,4 @@
-package edu.gqq.ayuan;
+package edu.gqq.ayuan.Method;
 
 import java.util.Scanner;
 

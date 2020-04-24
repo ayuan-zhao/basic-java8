@@ -22,9 +22,11 @@ public class Person {//类名首字母大写，类后面跟着大括号，全部
      * 获取年龄
      * @return
      */
-     public int getAge(){//如果是一个有返回值的方法，那么方法体的最后一行一定是返回相应的数据，返回相应的数据，使用的是return关键字，
+    //如果是一个有返回值的方法，那么方法体的最后一行一定是返回相应的数据，返回相应的数据，使用的是return关键字，
+     public int getAge(){
          //返回的数据类型与方法定义的一致
-         return age;//定义在min里面,return在另一个方法里是可以的
+         //定义在main里面,return在另一个方法里是可以的,return后面跟的是方法的返回值
+         return age;
      }
 
 }

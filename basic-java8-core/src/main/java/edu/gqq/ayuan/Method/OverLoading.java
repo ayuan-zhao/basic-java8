@@ -1,4 +1,4 @@
-package edu.gqq.ayuan;
+package edu.gqq.ayuan.Method;
 
 public class OverLoading {
     public static void main(String[] args) {

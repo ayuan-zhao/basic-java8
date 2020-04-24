@@ -1,4 +1,4 @@
-package edu.gqq.ayuan;
+package edu.gqq.ayuan.Method;
 
 public class Compare {
     public static void main(String[] args) {
@@ -13,4 +13,15 @@ public class Compare {
             return a==b;
 
     }
+    //用三元运算符改
+//        if(a>b) {
+//            return (a > c ? a : c);
+//        }else {
+//            return (b > c ? b : c);
+//        }
+    //继续改进
+//        return (a>b)?(a>c?a:c):(b>c?b:c);
+//    int temp = (a > b) ? a : b;
+//    int max = ((temp > c)) ? temp : c;
+//        return max;
 }
