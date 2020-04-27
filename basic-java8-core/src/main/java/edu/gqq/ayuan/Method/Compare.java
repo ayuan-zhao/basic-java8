@@ -11,7 +11,9 @@ public class Compare {
         public static boolean compare(byte a,byte b) {
             System.out.println("byte");
             return a==b;
-
+// test save
+// test save2
+// test save4
     }
     //用三元运算符改
 //        if(a>b) {
