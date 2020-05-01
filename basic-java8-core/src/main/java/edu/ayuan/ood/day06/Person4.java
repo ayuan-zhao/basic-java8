@@ -2,6 +2,11 @@ package edu.ayuan.ood.day06;
 
 //
 public class Person4 {
+//    类是public ，构造就是public，
+    public Person4(){}
+
+//    class T1{
+//    默认构造方法 T1(){}
 //    private
 //    private int age;
 //
