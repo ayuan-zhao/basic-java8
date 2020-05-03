@@ -32,12 +32,12 @@ public class Person8 {
 
     public void setAge(int age) {
         this.age = age;
-    }
 
 
 
 
-    }
+
+
 //    如果要执行，需要写main
 //    public void setName(String name){
 //        this.name = name;
@@ -58,5 +58,5 @@ public class Person8 {
 //    }
 //    public int getAge(){
 //        return this.getAge();
-//    }
+    }
 }

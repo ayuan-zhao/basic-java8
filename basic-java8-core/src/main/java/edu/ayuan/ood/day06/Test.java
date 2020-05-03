@@ -36,13 +36,12 @@ public class Test {
 // new Person06(1,true);
 
 
+        Person8 p8 = new Person8();
 
-    Person8 p8 = new Person8();
-
-    p8.setName("张三");
-    p8.setAge(20);
-    p8.setSex(0);
-        System.out.println(p8.getName()+p8.getSex()+p8.getAge());
+        p8.setName("张三");
+        p8.setAge(20);
+        p8.setSex(0);
+        System.out.println(p8.getName() + p8.getSex() + p8.getAge());
     }
 }
 
